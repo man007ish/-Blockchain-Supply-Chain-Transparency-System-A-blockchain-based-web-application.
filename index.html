@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Supply Chain Transparency System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blockchain Supply Chain Transparency System</h1>
+    </header>
+    <main>
+        <div class="container">
+            <section id="add-product">
+                <h2>Add Product</h2>
+                <input type="text" id="product-name" placeholder="Product Name">
+                <input type="text" id="product-id" placeholder="Product ID">
+                <input type="text" id="product-status" placeholder="Product Status">
+                <button id="submit-button" class="button">Add Product</button>
+                <div id="output"></div>
+            </section>
+            <section id="product-tracking">
+                <h2>Track Your Product</h2>
+                <input type="text" id="track-product-id" placeholder="Enter Product ID">
+                <button id="track-button" class="button">Track</button>
+                <div id="tracking-result"></div>
+            </section>
+            <section id="blockchain-visualization">
+                <h2>Blockchain Visualization</h2>
+                <div id="blockchain-view"></div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 Blockchain Supply Chain Transparency System</p>
+    </footer>
+    <script src="blockchain.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
